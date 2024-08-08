@@ -1,6 +1,6 @@
 #include "ledArray.h"
 
-ledArray array();
+ledArray array;
 
 void setup() {
   Serial.begin(9600);

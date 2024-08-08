@@ -13,7 +13,7 @@ void ledArray::init(){
   matrix.beginText(0, 1, 0xFF, 0, 0);
 }
 
-void ledArray::print(const char text){
-  matrix.print("V0.1.0");
+void ledArray::print(char text){
+  matrix.print(text);
   matrix.endText(SCROLL_LEFT);
 }

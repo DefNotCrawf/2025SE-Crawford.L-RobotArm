@@ -10,7 +10,7 @@ public:
   ledArray() {}
   
   void init();
-  void print(const char text);
+  void print(char text);
 };
 
 #endif
