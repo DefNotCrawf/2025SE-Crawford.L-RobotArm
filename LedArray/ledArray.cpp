@@ -1,5 +1,19 @@
 #include "ledArray.h"
 
-ledArray::ledArray(thisString){
-  this->thisString = words;
+#include <ArduinoGraphics.h>
+#include <Arduino_LED_Matrix.h>
+
+ArduinoLEDMatrix matrix;
+
+void ledArray::init(){
+  matrix.begin();
+  matrix.textFont(Font_5x7);
+  matrix.textScrollSpeed(100);
+  matrix.stroke(0xFF, 0, 0);
+  matrix.beginText(0, 1, 0xFF, 0, 0);
+}
+
+void ledArray::print(const char text){
+  matrix.print("V0.1.0");
+  matrix.endText(SCROLL_LEFT);
 }

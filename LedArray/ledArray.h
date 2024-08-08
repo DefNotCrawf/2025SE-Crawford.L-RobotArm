@@ -7,14 +7,10 @@ class ledArray{
 private:
 
 public:
-  ledArray() {};
-  ledArray(thisString);
-
-  String thisString = String(
-    "v0.1.0"
-  );
-
-  void print();
+  ledArray() {}
+  
+  void init();
+  void print(const char text);
 };
 
 #endif
