@@ -5,7 +5,7 @@
 
 ArduinoLEDMatrix matrix;
 
-void ledArray::init(){
+void ledArray::init() {
   matrix.begin();
   matrix.textFont(Font_5x7);
   matrix.textScrollSpeed(100);
@@ -13,7 +13,11 @@ void ledArray::init(){
   matrix.beginText(0, 1, 0xFF, 0, 0);
 }
 
-void ledArray::print(const char* text){
+void ledArray::print(const char* text) {
   matrix.print(text);
   matrix.endText(SCROLL_LEFT);
+}
+
+void ledArray::printframe(const uint32_t* frame) {
+  matrix.loadFrame(frame);
 }
