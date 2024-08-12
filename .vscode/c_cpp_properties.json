@@ -555,7 +555,7 @@
         },
         {
             "name": "Arduino",
-            "compilerPath": "C:\\Users\\Crawford\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\bin\\arm-none-eabi-g++",
+            "compilerPath": "C:\\Users\\crawford.lieu\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\bin\\arm-none-eabi-g++",
             "compilerArgs": [
                 "-w",
                 "-fno-use-cxa-atexit",
@@ -564,22 +564,22 @@
             ],
             "intelliSenseMode": "gcc-x64",
             "includePath": [
-                "C:\\Users\\Crawford\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.2.0\\cores\\arduino\\tinyusb",
-                "C:\\Users\\Crawford\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.2.0\\cores\\arduino\\api\\deprecated",
-                "C:\\Users\\Crawford\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.2.0\\cores\\arduino\\api\\deprecated-avr-comp",
-                "C:\\Users\\Crawford\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.2.0\\cores\\arduino",
-                "C:\\Users\\Crawford\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.2.0\\variants\\UNOWIFIR4",
-                "C:\\Users\\Crawford\\Documents\\Arduino\\libraries\\ArduinoGraphics\\src",
-                "C:\\Users\\Crawford\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.2.0\\libraries\\Arduino_LED_Matrix\\src",
-                "c:\\users\\crawford\\appdata\\local\\arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\arm-none-eabi\\include\\c++\\7.2.1",
-                "c:\\users\\crawford\\appdata\\local\\arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi",
-                "c:\\users\\crawford\\appdata\\local\\arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\arm-none-eabi\\include\\c++\\7.2.1\\backward",
-                "c:\\users\\crawford\\appdata\\local\\arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\lib\\gcc\\arm-none-eabi\\7.2.1\\include",
-                "c:\\users\\crawford\\appdata\\local\\arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\lib\\gcc\\arm-none-eabi\\7.2.1\\include-fixed",
-                "c:\\users\\crawford\\appdata\\local\\arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\arm-none-eabi\\include"
+                "C:\\Users\\crawford.lieu\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.2.0\\cores\\arduino\\tinyusb",
+                "C:\\Users\\crawford.lieu\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.2.0\\cores\\arduino\\api\\deprecated",
+                "C:\\Users\\crawford.lieu\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.2.0\\cores\\arduino\\api\\deprecated-avr-comp",
+                "C:\\Users\\crawford.lieu\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.2.0\\cores\\arduino",
+                "C:\\Users\\crawford.lieu\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.2.0\\variants\\UNOWIFIR4",
+                "C:\\Users\\crawford.lieu\\Documents\\Arduino\\libraries\\ArduinoGraphics\\src",
+                "C:\\Users\\crawford.lieu\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.2.0\\libraries\\Arduino_LED_Matrix\\src",
+                "c:\\users\\crawford.lieu\\appdata\\local\\arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\arm-none-eabi\\include\\c++\\7.2.1",
+                "c:\\users\\crawford.lieu\\appdata\\local\\arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\arm-none-eabi\\include\\c++\\7.2.1\\arm-none-eabi",
+                "c:\\users\\crawford.lieu\\appdata\\local\\arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\arm-none-eabi\\include\\c++\\7.2.1\\backward",
+                "c:\\users\\crawford.lieu\\appdata\\local\\arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\lib\\gcc\\arm-none-eabi\\7.2.1\\include",
+                "c:\\users\\crawford.lieu\\appdata\\local\\arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\lib\\gcc\\arm-none-eabi\\7.2.1\\include-fixed",
+                "c:\\users\\crawford.lieu\\appdata\\local\\arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\arm-none-eabi\\include"
             ],
             "forcedInclude": [
-                "C:\\Users\\Crawford\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.2.0\\cores\\arduino\\Arduino.h"
+                "C:\\Users\\crawford.lieu\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.2.0\\cores\\arduino\\Arduino.h"
             ],
             "cStandard": "c11",
             "cppStandard": "c++17",
@@ -589,7 +589,7 @@
                 "BACKTRACE_SUPPORT",
                 "ARDUINO_UNOR4_WIFI",
                 "ARDUINO=10607",
-                "PROJECT_NAME=\"C:\\Users\\Crawford\\AppData\\Local\\Temp\\arduino\\sketches\\B4FD3388CD15FFBF7215A52B952ECFE1/LedArray.ino\"",
+                "PROJECT_NAME=\"C:\\Users\\crawford.lieu\\AppData\\Local\\Temp\\arduino\\sketches\\880FD2E0C4D2DBCD38884E48F2431233/LedArray.ino\"",
                 "ARDUINO_UNOWIFIR4",
                 "ARDUINO_ARCH_RENESAS_UNO",
                 "ARDUINO_ARCH_RENESAS",

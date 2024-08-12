@@ -35,7 +35,7 @@ void setup() {
   array.init();
 
   // Serial.println("\nv0.1.0");
-  array.print("v0.1.12 - OOP TEST");
+  array.print("v0.2.1 - OOP TEST");
 
   // Serial.println("\nOOP TEST");
   // array.print("OOP TEST");

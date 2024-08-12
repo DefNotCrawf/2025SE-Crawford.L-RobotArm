@@ -20,4 +20,5 @@ void ledArray::print(const char* text) {
 
 void ledArray::printframe(const uint32_t* frame) {
   matrix.loadFrame(frame);
+  delay(100);
 }
