@@ -12,12 +12,14 @@ public:
 
   void init();
 
-  void range();
+  void range(); // move between all available range
 
-  /*
-  void open();
-  void close();
-  */
+  void open(); // Pos 125
+  void close(); // Pos 165
+
+  bool isOpen(); // returns True if open, else retruns false
+
+  void randPos(); // random movements
 };
 
 #endif
