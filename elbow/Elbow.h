@@ -2,62 +2,21 @@
 #define Elbow_H
 
 #include <Arduino.h>
+#include <Servo.h>
 
-class Elbow1 {
+class Elbow {
 private:
-  
-
-  const int startPos = 90;
-public:
-  int _pin;
-  
-  Elbow1() {}  // default constructor, do not use for this case
-  Elbow1(int pin);
-
-  void init();
-  void init(int initialPos);
-
-  void angle(int Pos);
-
-  void range();
-
-  void reset();
-};
-
-class Elbow2 {
-private:
-  
-
-  const int startPos = 90;
-public:
   int pin;
-  
-  Elbow2() {}  // default constructor, do not use for this case
-  Elbow2(int pin);
 
-  void init();
-  void init(int initialPos);
-
-  void angle(int Pos);
-
-  void range();
-
-  void reset();
-};
-
-class Elbow3 {
-private:
-  
+  Servo myservo;
 
   const int startPos = 90;
 public:
-  int pin;
-  
-  Elbow3() {}  // default constructor, do not use for this case
-  Elbow3(int pin);
+  Elbow() {}  // default constructor, do not use for this case
+  Elbow(Servo &myservo);
+  Elbow(int pin);
 
   void init();
-  void init(int initialPos);
 
   void angle(int Pos);
 
@@ -65,4 +24,5 @@ public:
 
   void reset();
 };
+
 #endif
