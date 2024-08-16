@@ -4,7 +4,7 @@ Elbow::Elbow(Servo &myservo) {
   this->myservo = myservo;
 }
 
-Elbow::Elbow(int pin) {
+Elbow::Elbow(byte pin) {
   this->pin = pin;
 }
 

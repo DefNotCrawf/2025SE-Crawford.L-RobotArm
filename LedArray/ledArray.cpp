@@ -5,6 +5,9 @@
 
 ArduinoLEDMatrix matrix;
 
+
+
+
 void ledArray::init() {
   matrix.begin();
   matrix.textFont(Font_5x7);
@@ -20,5 +23,5 @@ void ledArray::print(const char* text) {
 
 void ledArray::printframe(const uint32_t* frame) {
   matrix.loadFrame(frame);
-  delay(100);
+  delay(200);
 }

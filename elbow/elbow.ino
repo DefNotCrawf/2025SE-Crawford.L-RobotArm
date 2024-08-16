@@ -26,12 +26,12 @@ void loop() {
   elbow3.reset();
 
 
-  // elbow1.angle(45);
-  // Serial.println("e1Pos:\t45");
-  // delay(1000);
-  // elbow1.reset();
-  // Serial.println("e1Pos:\t90");
-  // delay(1000);
+  elbow1.angle(45);
+  Serial.println("e1Pos:\t45");
+  delay(1000);
+  elbow1.reset();
+  Serial.println("e1Pos:\t90");
+  delay(1000);
 
 
   // elbow2.angle(135);

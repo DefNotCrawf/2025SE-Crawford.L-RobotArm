@@ -2,19 +2,6 @@
 
 ledArray array;
 
-const uint32_t arrow_left[] = {
-  0x400c01c,
-  0x3fc3fc1,
-  0xcc0cc04c,
-  66
-};
-
-const uint32_t arrow_right[] = {
-  0x2003003,
-  0x83fc3fc3,
-  0x38330320,
-  66
-};
 
 const uint32_t animation[] = {
   0xaaa555aa,
@@ -35,7 +22,12 @@ void setup() {
   array.init();
 
   // Serial.println("\nv0.1.0");
-  array.print("v0.2.1 - OOP TEST");
+  array.print("v0.4.1");
+  delay(50);
+  array.print("multi-line");
+  delay(50);
+  array.print("v");
+
 
   // Serial.println("\nOOP TEST");
   // array.print("OOP TEST");
@@ -43,7 +35,5 @@ void setup() {
 
 void loop() {
   array.printframe(animation);
-  delay(200);
   array.printframe(animation2);
-  delay(200);
 }

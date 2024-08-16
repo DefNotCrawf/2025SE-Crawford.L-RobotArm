@@ -1,6 +1,6 @@
 #include "Base.h"
 
-const byte BASE_PIN = 3;
+#define BASE_PIN 3
 
 Base base(BASE_PIN);
 
@@ -10,20 +10,22 @@ void setup() {
   Serial.println("bPos:90");
   base.init();
   // base.begin();
-  delay(3000);
+  base.moveTo(0);
+  delay(2000);
 }
 
 void loop() {
   /* 
     Below is a range test. It cycles through the entire theoretical range of the servo.
   */
-  int i = 0;
-  for (i = 0; i <= 180; i++) {
-    base.moveTo(i);
-    Serial.print("bPos:");
-    Serial.println(i);
-    delay(500);
-  };
+
+  for (int r = 0; r <= 180; r += 45) {
+    base.moveTo(r);
+    Serial.println(base.currPos());
+    delay(1000);
+  }
+
+  base.moveTo(0);
   delay(2000);
 
   /* 

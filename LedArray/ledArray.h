@@ -2,12 +2,16 @@
 #define ledArray_H
 
 #include <Arduino.h>
+#include <ArduinoGraphics.h>
+#include <Arduino_LED_Matrix.h>
 
 class ledArray {
 private:
-
+  ArduinoLEDMatrix matrix;
 public:
   ledArray() {}
+  ledArray(ArduinoLEDMatrix &matrix);
+
 
   void init();
   void print(const char* text);

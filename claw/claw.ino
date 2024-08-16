@@ -1,6 +1,6 @@
 #include "Claw.h"
 
-const byte CLAW_PIN = 11;
+#define CLAW_PIN 10
 
 Claw claw(CLAW_PIN);
 
@@ -9,7 +9,7 @@ void setup() {
   claw.init();
   claw.open();
   delay(1500);
-  claw.close();
+  claw.grab();
 }
 
 void loop() {

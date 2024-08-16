@@ -2,5 +2,5 @@
     "board": "arduino:renesas_uno:unor4wifi",
     "port": "COM5",
     "sketch": "LedArray\\LedArray.ino",
-    "programmer": "stlink"
+    "programmer": "rfp"
 }

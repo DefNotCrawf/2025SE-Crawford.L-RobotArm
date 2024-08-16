@@ -1,8 +1,8 @@
 #include "Base.h"
 
-#include <Servo.h>
-
-Servo myservo;
+Base::Base(Servo &myservo) {
+  this->myservo = myservo;
+}
 
 Base::Base(byte pin) {
   this->pin = pin;
@@ -15,14 +15,17 @@ void Base::init() {
 void Base::init(int initialPos) {
   myservo.attach(pin);
   myservo.write(initialPos);
+  delay(50);
 }
 
 void Base::begin() {
   myservo.write(startPos);
+  delay(50);
 }
 
 void Base::moveTo(int Pos) {
   myservo.write(Pos);
+  delay(50);
 }
 
 int Base::currPos(){

@@ -14,7 +14,7 @@ private:
 public:
   Elbow() {}  // default constructor, do not use for this case
   Elbow(Servo &myservo);
-  Elbow(int pin);
+  Elbow(byte pin);
 
   void init();
 

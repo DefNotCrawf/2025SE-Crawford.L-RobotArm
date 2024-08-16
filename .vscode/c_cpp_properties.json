@@ -1076,7 +1076,8 @@
                 "C:\\Users\\crawford.lieu\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.2.0\\variants\\UNOWIFIR4\\includes\\ra_cfg\\fsp_cfg\\bsp",
                 "C:\\Users\\crawford.lieu\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\renesas_uno\\1.2.0\\variants\\UNOWIFIR4\\**",
                 "C:\\Users\\crawford.lieu\\AppData\\Local\\Arduino15\\packages\\arduino\\**",
-                "C:\\Users\\crawford.lieu\\Documents\\Arduino\\libraries\\**"
+                "C:\\Users\\crawford.lieu\\Documents\\Arduino\\libraries\\**",
+                "C:\\Users\\crawford.lieu\\AppData\\Local\\Arduino15\\libraries\\**"
             ],
             "forcedInclude": [
                 "C:\\Users\\crawford.lieu\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.6\\cores\\arduino\\Arduino.h"

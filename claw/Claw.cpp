@@ -1,8 +1,8 @@
 #include "Claw.h"
 
-#include <Servo.h>
-
-Servo myservo;
+Claw::Claw(Servo &myservo) {
+  this->myservo = myservo;
+}
 
 Claw::Claw(byte pin) {
   this->pin = pin;
@@ -28,11 +28,15 @@ void Claw::range() /* move between all available range */ {
 }
 
 void Claw::open() /* Pos 125 */ {
-  myservo.write(125);
-}  // Pos 125
+  myservo.write(122);
+}
 
-void Claw::close() /* Pos 165 */ {
-  myservo.write(165);
+void Claw::close() /* Pos 170 */ {
+  myservo.write(170);
+}
+
+void Claw::grab() /* Pos  */ {
+  myservo.write(142);
 }
 
 bool Claw::isOpen() {
