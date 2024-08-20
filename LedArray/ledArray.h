@@ -6,7 +6,7 @@
 #include <Arduino_LED_Matrix.h>
 
 class ledArray {
-private:
+protected:
   ArduinoLEDMatrix matrix;
 public:
   ledArray() {}

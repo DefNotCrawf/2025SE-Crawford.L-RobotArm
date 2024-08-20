@@ -5,7 +5,7 @@
 #include <Servo.h>
 
 class Elbow {
-private:
+protected:
   int pin;
 
   Servo myservo;

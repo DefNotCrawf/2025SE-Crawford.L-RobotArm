@@ -6,7 +6,7 @@
 
 
 class Base {
-private:
+protected:
   int pin;
 
   Servo myservo;

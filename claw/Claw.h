@@ -6,7 +6,7 @@
 
 
 class Claw {
-private:
+protected:
   byte pin;
 
   Servo myservo;
