@@ -12,7 +12,7 @@ protected:
   float duration; // Time taken for the wave to return
   float distance; // Distance from the object
 
-  int MAX_DISTANCE = 16; // Maximum distance for the sensor
+  int MAX_DISTANCE = 400; // Maximum distance for the sensor
 
   NewPing sonar = NewPing(trigPin, echoPin, MAX_DISTANCE); // NewPing object
 public:

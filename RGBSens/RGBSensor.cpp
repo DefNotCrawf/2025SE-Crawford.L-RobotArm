@@ -1,5 +1,9 @@
 #include "RGBSensor.h"
 
+RGBSensor::RGBSensor(Adafruit_TCS34725 &tcs){
+  this->tcs = tcs;
+}
+
 void RGBSensor::init() {
   // Serial.println("Color View Test!");
   if (tcs.begin()) {
