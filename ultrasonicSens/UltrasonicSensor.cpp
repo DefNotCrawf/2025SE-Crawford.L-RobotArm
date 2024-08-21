@@ -1,9 +1,14 @@
 #include "UltrasonicSensor.h"
 
-UltrasonicSensor::UltrasonicSensor(byte trigPin, byte echoPin) {
+
+UltrasonicSensor::UltrasonicSensor(byte trigPin, byte echoPin)
+{
   this->trigPin = trigPin;
   this->echoPin = echoPin;
+}
 
+UltrasonicSensor::UltrasonicSensor(NewPing &sonar) {
+  this->sonar(trigPin, echoPin, MAX_DISTANCE) = sonar;
 }
 
 void UltrasonicSensor::init() {
@@ -12,6 +17,6 @@ void UltrasonicSensor::init() {
 }
 
 void UltrasonicSensor::measureDistance() {
-sonar.ping_cm([max_cm_distance])
+  sonar.ping_timer();
 }
 
