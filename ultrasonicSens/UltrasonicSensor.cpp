@@ -8,7 +8,7 @@ UltrasonicSensor::UltrasonicSensor(byte trigPin, byte echoPin)
 }
 
 UltrasonicSensor::UltrasonicSensor(NewPing &sonar) {
-  this->sonar(trigPin, echoPin, MAX_DISTANCE) = sonar;
+  this->sonar = sonar;
 }
 
 void UltrasonicSensor::init() {
@@ -17,6 +17,6 @@ void UltrasonicSensor::init() {
 }
 
 void UltrasonicSensor::measureDistance() {
-  sonar.ping_timer();
+  // code here
 }
 

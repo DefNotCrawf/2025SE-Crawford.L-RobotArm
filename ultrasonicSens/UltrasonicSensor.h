@@ -14,16 +14,12 @@ protected:
 
   int MAX_DISTANCE = 16; // Maximum distance for the sensor
 
-  // NewPing sonar = Newping(trigPin, echoPin, MAX_DISTANCE);
-  
-  NewPing sonar(byte trigPin, byte echoPin, int MAX_DISTANCE); // NewPing object
-
-  
+  NewPing sonar = NewPing(trigPin, echoPin, MAX_DISTANCE); // NewPing object
 public:
   // public methods here
   UltrasonicSensor(){} // Default constructor, do not use
   UltrasonicSensor(byte trigPin, byte echoPin); // Constructor w/ trig and echo pins
-  UltrasonicSensor(NewPing &sonar); // Constructor w/ NewPing object
+  UltrasonicSensor(NewPing &sonar); // NewPing constructor
 
   void init();
   void measureDistance();
