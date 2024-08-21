@@ -12,17 +12,17 @@ protected:
   float duration; // Time taken for the wave to return
   float distance; // Distance from the object
 
-  int MAX_DISTANCE = 400; // Maximum distance for the sensor
-
-  NewPing sonar = NewPing(trigPin, echoPin, MAX_DISTANCE); // NewPing object
 public:
   // public methods here
+  NewPing radar = NewPing(trigPin, echoPin); // NewPing object
+
+  
   UltrasonicSensor(){} // Default constructor, do not use
   UltrasonicSensor(byte trigPin, byte echoPin); // Constructor w/ trig and echo pins
-  UltrasonicSensor(NewPing &sonar); // NewPing constructor
+  UltrasonicSensor(NewPing &radar); // NewPing constructor
 
   void init();
-  void measureDistance();
+  long measureDistance();
 };
 
 

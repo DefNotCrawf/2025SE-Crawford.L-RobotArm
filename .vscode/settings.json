@@ -20,4 +20,5 @@
         "tuple": "cpp"
     },
     "editor.tabSize": 2,
+    "editor.fontSize": 13,
 }

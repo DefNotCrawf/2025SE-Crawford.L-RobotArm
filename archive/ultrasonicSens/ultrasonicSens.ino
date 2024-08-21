@@ -1,6 +1,11 @@
 #include "UltrasonicSensor.h"
 
-UltrasonicSensor ultraSensor(6, 5);
+#define TRIG_P 6
+#define ECHO_P 5
+
+
+
+UltrasonicSensor ultraSensor(TRIG_P, ECHO_P);
 
 void setup(){
   Serial.begin(115200);
