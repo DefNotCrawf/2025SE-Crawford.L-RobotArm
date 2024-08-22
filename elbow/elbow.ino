@@ -18,34 +18,38 @@ void setup() {
   elbow3.init();
 
   delay(500);
-}
 
-void loop() {
   elbow1.reset();
   elbow2.reset();
   elbow3.reset();
 
+  delay(500);
+}
+
+void loop() {
+
+
 
   elbow1.angle(45);
-  Serial.println("e1Pos:\t45");
+  Serial.println("e1Pos:\t135");
   delay(1000);
   elbow1.reset();
   Serial.println("e1Pos:\t90");
   delay(1000);
 
 
-  // elbow2.angle(135);
-  // Serial.println("e2Pos:\t135");
-  // delay(1000);
-  // elbow2.reset();
-  // Serial.println("e2Pos:\t90");
-  // delay(1000);
+  elbow2.angle(45);
+  Serial.println("e2Pos:\t135");
+  delay(1000);
+  elbow2.reset();
+  Serial.println("e2Pos:\t90");
+  delay(1000);
 
 
-  // elbow3.angle(135);
-  // Serial.println("e3Pos:\t135");
-  // delay(1000);
-  // elbow3.reset();
-  // Serial.println("e3Pos:\t90");
-  // delay(1000);
+  elbow3.angle(135);
+  Serial.println("e3Pos:\t135");
+  delay(1000);
+  elbow3.reset();
+  Serial.println("e3Pos:\t90");
+  delay(1000);
 }

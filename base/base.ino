@@ -1,6 +1,6 @@
 #include "Base.h"
 
-#define BASE_PIN 3
+#define BASE_PIN 10
 
 Base base(BASE_PIN);
 

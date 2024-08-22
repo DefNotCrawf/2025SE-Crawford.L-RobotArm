@@ -1,12 +1,8 @@
 #include "ledArray.h"
 
-#include <ArduinoGraphics.h>
-#include <Arduino_LED_Matrix.h>
-
-ArduinoLEDMatrix matrix;
-
-
-
+ledArray::ledArray(ArduinoLEDMatrix &matrix) {
+  this->matrix = matrix;
+}
 
 void ledArray::init() {
   matrix.begin();

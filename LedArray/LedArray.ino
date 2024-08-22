@@ -22,15 +22,10 @@ void setup() {
   array.init();
 
   // Serial.println("\nv0.1.0");
-  array.print("v0.4.1");
+  array.print("v0.5.0");
   delay(50);
   array.print("multi-line");
   delay(50);
-  array.print("v");
-
-
-  // Serial.println("\nOOP TEST");
-  // array.print("OOP TEST");
 }
 
 void loop() {
