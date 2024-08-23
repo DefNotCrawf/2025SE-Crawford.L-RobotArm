@@ -1,6 +1,6 @@
 #include "RGBSensor.h"
 
-RGBSensor::RGBSensor(Adafruit_TCS34725 &tcs){
+RGBSensor::RGBSensor(Adafruit_TCS34725 &tcs) {
   this->tcs = tcs;
 }
 
@@ -50,6 +50,8 @@ void RGBSensor::getRGB() {
 
   if ((red < 100) && (green < 100) && (blue < 100)) {
     // blank
+  } else if ((red > 255) || (green > 255) || (blue > 255)) {
+    Serial.println("Error");
   } else if ((red > green) && (red > blue)) {
     Serial.println("Red");
   } else if ((green > red) && (green > blue)) {
